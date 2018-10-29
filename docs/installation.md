@@ -1,6 +1,6 @@
 ---
 title: Installation
-layout: post
+layout: pages
 ---
 
 # Installation
