@@ -1,3 +1,3 @@
 # Ion
 
-[Installation Guide](/Ion/installation)
+[Installation Guide](https://simons-public.github.io/Ion/installation)
