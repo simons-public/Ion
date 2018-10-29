@@ -1,1 +1,4 @@
-# Installation
+---
+title: Installation
+layout: post
+---
