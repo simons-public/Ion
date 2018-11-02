@@ -1,0 +1,18 @@
+"compatibilitytools"
+{
+  "compat_tools"
+  {
+    "proton-ion" // Internal name of this tool
+    {
+      // - This manifest can be placed directly in compatibilitytools.d, in which case this should
+      //   be the relative or absolute path to the tool's dist directory.
+      "install_path" "."
+
+      // For this template, we're going to substitute the display_name key in here, e.g.:
+      "display_name" "Ion-1.0.0"
+
+      "from_oslist"  "windows"
+      "to_oslist"    "linux"
+    }
+  }
+}

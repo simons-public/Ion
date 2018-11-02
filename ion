@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+""" Ion compatibility tool for SteamPlay """
+
+from ionlib.cmdline import args
+from ionlib import launch
+
+if __name__ == '__main__':
+    """ Determine mode and launch """
+
+    if args.mode == 'run':
+        launch.run()
+
+    if args.mode == 'waitforexitandrun':
+        launch.run(wait=True)
+
+    if 'path' in args.mode:
+        launch.get_path()
